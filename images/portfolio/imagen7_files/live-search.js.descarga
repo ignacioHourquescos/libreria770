@@ -1,0 +1,81 @@
+jQuery(function($) {
+    var FORM_SELECTOR = '.e-header__flyout-search';
+    var QUICKLINKS_SELECTOR = '.e-header__flyout-quicklinks';
+    var LIVESEARCH_BUTTON_SELECTOR = '.e-livesearch__button';
+    var LIVESEARCH_RESULTS_SELECTOR = '.e-livesearch__results';
+    var LIVESEARCH_MORE_BUTTON_SELECTOR = '.e-livesearch__more-button';
+
+    function hideQuicklinks() {
+        $(QUICKLINKS_SELECTOR).fadeOut(250);
+    }
+
+    function showQuicklinks() {
+        $(QUICKLINKS_SELECTOR).fadeIn(250);
+    }
+
+    function addSpinner() {
+        $(LIVESEARCH_BUTTON_SELECTOR).find('i').removeClass('fa-search').addClass('fa-circle-o-notch fa-spin');
+    }
+
+    function removeSpinner() {
+        $(LIVESEARCH_BUTTON_SELECTOR).find('i').removeClass('fa-circle-o-notch fa-spin').addClass('fa-search');
+    }
+
+    function clearResults() {
+        $(LIVESEARCH_RESULTS_SELECTOR).html('');
+    }
+
+    function setResultsFromResponse(data) {
+        $(LIVESEARCH_RESULTS_SELECTOR).html($(data).find(LIVESEARCH_RESULTS_SELECTOR).html());
+    }
+
+    function urlForQuery(q) {
+        var searchUrl = $(FORM_SELECTOR).attr('action');
+        return searchUrl + 'ajaxsearch.html?tx_solr[q]=' + encodeURIComponent(q) + '&tx_solr[resultsPerPage]=5';
+    }
+
+    $(FORM_SELECTOR).find('input').typeWatch({
+        allowSubmit: true,
+        callback: function(value) {
+            if (value === '') {
+                showQuicklinks();
+                clearResults();
+                return;
+            }
+
+            hideQuicklinks();
+            addSpinner();
+
+            $.ajax({
+                url: urlForQuery(value),
+                dataType: 'html'
+            }).done(function(data) {
+                setResultsFromResponse(data);
+            }).always(function() {
+                removeSpinner();
+            });
+        },
+        captureLength: 3,
+        highlight: false,
+        wait: 200
+    });
+
+    // Submit live search form on more button click (delegated because of AJAX loaded content)
+    $(document).on('click', LIVESEARCH_MORE_BUTTON_SELECTOR, function() {
+        clearResults();
+        $(QUICKLINKS_SELECTOR).show();
+        $(FORM_SELECTOR).submit();
+        return false;
+    });
+
+
+    function parseQuery(queryString) {
+        var query = {};
+        var pairs = (queryString[0] === '?' ? queryString.substr(1) : queryString).split('&');
+        for (var i = 0; i < pairs.length; i++) {
+            var pair = pairs[i].split('=');
+            query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+        }
+        return query;
+    }
+});
