@@ -1,5 +1,5 @@
 /* Slider */
-.slick-slide {
+/*.slick-slide {
   margin: 0px 20px;
 }
 
@@ -85,5 +85,85 @@ body {
 
 /* JsFiddle Example only/don't use */
 .logo-carousel {
-  margin-top: 32px;
+  margin-top: px;
+}
+
+//codigo misleidy//
+
+.container {
+  margin: 10px 0px;
+  width: 100%;
+  height:;
+  background: rgba(195, 158, 178, 0.123);
+
+}
+
+.site-backgroud {
+  z-index: -1;
+  position: relative;
+  top: 0;
+}
+
+.site-content {
+  background: rgba(151, 149, 153, 0.274);
+  height: 100%;
+  margin: auto;
+}
+
+.slider {
+ position: absolute;
+ margin: 0px 20px ;
+ overflow: hidden;
+}
+
+.slider figure{
+  position: relative;
+  width: 120px;
+  margin: 0;
+  animation: 15s slider infinite;
+}
+
+.slider figure img {
+  float: left;
+  width: 20% ;
+
+}
+
+@keyframes slider {
+  0% {
+      left:0;
+  }
+  15% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  35%{
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  65% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  85% {
+      left: -300%;
+  }
+  95% {
+      left: -400%;
+  }
+ 
+}
+
+.imagenes {
+ width: 150px;
+ height: 100px;
 }
