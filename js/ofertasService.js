@@ -17,6 +17,7 @@ function cargarOfertas () {
 	});
 }
   
+var precioAtnerior
 function insertarDatosEnNuevoDiv(elemento,data,i){
 	var idColor = 1;
 	//trae data del backend desde un google sheets y lo va insertando en el titulo, el detalle, el precio etc.
