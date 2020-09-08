@@ -1137,7 +1137,7 @@ input::-moz-focus-inner {
 .section-intro {
   text-align: center;
   position: relative;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0rem;
 }
 .section-intro h1 {
   font-family: "librebaskerville-bold", serif;
@@ -2080,7 +2080,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0;
 }
 #portfolio .intro-wrap {
-  padding: 5rem 0 1rem;
+  padding: 3rem 0 0rem;
+  height:60em;
   background: #111111;
 }
 #portfolio .section-intro h3 {
@@ -2093,7 +2094,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgba(242, 242, 242, 0.4);
 }
 #portfolio .portfolio-content {
-  margin-top: -22.2rem;
+  margin-top: -2rem;
 }
 #portfolio .bricks-wrapper:before, 
 #portfolio .bricks-wrapper:after {

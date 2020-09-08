@@ -1,3 +1,13 @@
+#infinite{
+  background:linear-gradient(transparent, white 80%);
+  height:15%;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  z-index:10000;
+}
+
+
 #WAButton {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 2.5s;
@@ -5,15 +15,6 @@
     /* When the animation is finished, start again */
     animation-iteration-count: 0;
   }
-  
-  //*#WAButton:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-  /*}*/
-  
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
  
@@ -89,3 +90,49 @@
       white-space: normal;
     }
   }
+
+
+  #portfolio .intro-wrap {
+    padding: 3rem 0 0rem;
+    height:40em;
+    background:rgb(2, 0, 15);
+  }
+
+  * ------------------------------------------------------------------- */
+  #portfolio {
+    background: #FFFFFF;
+    min-height: 100px;
+    position: relative;
+    padding: 0;
+  }
+
+  #portfolio .section-intro h3 {
+    color: rgba(242, 242, 242, 0.5);
+  }
+  #portfolio .section-intro h1 {
+    color: #FFFFFF;
+  }
+  #portfolio .section-intro .lead {
+    color: rgba(242, 242, 242, 0.4);
+  }
+  #portfolio .portfolio-content {
+    margin-top: 0rem;
+  }
+  #portfolio .bricks-wrapper:before, 
+  #portfolio .bricks-wrapper:after {
+    content: "";
+    display: table;
+  }
+  #portfolio .bricks-wrapper:after {
+    clear: both;
+  }
+  #portfolio .bricks-wrapper .brick {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  #portfolio .bricks-wrapper .brick:nth-child(2n+1) {
+    clear: both;
+  }
+  
