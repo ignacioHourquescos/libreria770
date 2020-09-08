@@ -20,7 +20,7 @@ const constantes ={
   tituloServicios4:
   "EMBALAJE; SOBRES CINTAS Y PEGAMENTO",
   descServicios4:
-  "Linea completo de articulos para embalaje. Sobres, cjas, Pegamentos vninilicos ",
+  "Linea completo de articulos para embalaje. Sobres, cajas, Pegamentos vinilicos ",
 
 }
 
@@ -58,5 +58,7 @@ inserstartextos("descServicios4",   constantes.descServicios4);
 
 
 
-window.onload = wpp();
+$(document).ready(function(){
+  window.onload = wpp();
+});
 
