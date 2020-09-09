@@ -16,8 +16,6 @@ function cargarOfertas () {
 		$("#plantilla").remove(); // remueve la plnatilla que se carga con la pagina
 	});
 }
-
-
   
 var precioAtnerior
 function insertarDatosEnNuevoDiv(elemento,data,i){
@@ -26,11 +24,10 @@ function insertarDatosEnNuevoDiv(elemento,data,i){
 	//data.feed.entry[i].gsx$promo.$t y similares es la manera de acceder al dato que nos da google sheets. No asustarse!!
 	$(elemento).find('.titulo').text(data.feed.entry[i].gsx$promo.$t);
 	$(elemento).find('.detalle').text(data.feed.entry[i].gsx$descripcion.$t);
-	$(elemento).find('.preciolista').text(data.feed.entry[i].gsx$preciolista.$t);
-	$(elemento).find('.preciooferta').text(data.feed.entry[i].gsx$preciooferta.$t);
-	$(elemento).find('.card').addClass('color'+idColor); 
+	$(elemento).find('.precio').text(data.feed.entry[i].gsx$precio.$t);
+		  $(elemento).find('.card').addClass('color'+idColor); 
 	$(".competencias").append(elemento);
-	$(elemento).find('.imagenOferta').attr("src",data.feed.entry[i].gsx$urlimagen.$t);
+	$(elemento).find('.imagenOferta').attr("src",data.feed.entry[i].gsx$imagen.$t);
 		  $(elemento).show();
 }
 

@@ -2082,7 +2082,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #portfolio .intro-wrap {
   padding: 3rem 0 0rem;
   height:60em;
-  background: #111111;
+  background:  rgb(7, 3, 20);
 }
 #portfolio .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);

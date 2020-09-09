@@ -4,129 +4,73 @@
 		<meta charset="UTF-8">
 		<meta name="format-detection" content="telephone=no">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
-		<title>Libreria 770</title>
+		
+		<title>Ofertas del Mes</title>
 		<script src="../js/src/jquery.js"></script>
 		<script src="../js/src/helpers.js"></script>
+		<link rel="stylesheet" href="../css/micons/micons.css">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
-	</head>
+    	<link rel="stylesheet" type="text/css" href="../css/main.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="../css/personal.css">
+		<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+
+		</head>
 
 <!--salto de linea en negro al ppio de la hoja-->
 <div style="color:black; display:inline-block"></div>
 
-<body class="home" style=" background-image: url(../images/fondoNaranja.jpg);background-repeat: no-repeat;background-size: 100% 100%;">
+<body id="top">
 <!--Div where the WhatsApp will be rendered-->
-<!--<div id="WAButton" style="font-family: Arial, Helvetica, sans-serif; z-index:10;"></div>
+<div id="WAButton" style="font-family: Arial, Helvetica, sans-serif; z-index:10;"></div>
 
 
 <!-- SIDE MENU
 ================================================== -->
 <header>
-
-
 	<a id="header-menu-trigger" href="#0">
-		  <span class="header-menu-text">Menu</span>
-		   <span class="header-menu-icon"></span>
-	</a> 
+		<span class="header-menu-text">Menu</span>
+		<span class="header-menu-icon"></span>
+	</a>
 	<nav id="menu-nav-wrap">
-		<a href="#0" class="close-button" title="close"><span>Close</span></a>	
-		<h3>Renova</h3>  
-		 <ul class="nav-list">
-			 <li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
-			 <li><a class="" href="#about" title="">About</a></li>
-			 <li><a class="" href="#services" title="">Services</a></li>
-			 <li><a class="" href="#portfolio" title="">Works</a></li>
-			 <li><a class="" href="listas.html" title="" style="color:orange">Ingresar a mi cuenta</a></li>						
-		 </ul>	
-	 </nav>  <!-- end #menu-nav-wrap -->
+		<a href="#0" class="close-button" title="close"><span>Close</span></a>
+		<h3>Libreria770</h3>
+		<ul class="nav-list">
+			<li class="current"><a class="smoothscroll" href="../index.html" title="">Home</a></li>
+			<li><a class="" href="listas.html" title="">Listas</a></li>
+			<li><a class="" href="ofertas.html" title="">Ofertas</a></li>
+			<li><a class="" href="./login.html" title="">Admin</a></li>
+			<!-- <li><a class="" href="listas.html" title="">Ingresar a mi cuenta</a></li>						 -->
+		</ul>
+	</nav> <!-- end #menu-nav-wrap -->
 
 </header> <!-- end header -->  
 
 
-<!-- SECCION DE LISTAS
+<!-- SECCION DE OFERTAS
 ================================================== -->
-<section>
-	<div class="competenciaPlantilla competencia">
-			<div class="card">
-				<h2><a class="link titulo" href="listasEspecifica.html?id="></a></h2>
-			</div>
-		</div>	
-		<div class="competencias"></div>
-</section>
+<section class="container-fluid" id="portfolio">
 
-<footer>
-	<div class="footer-main">
+		<div class="intro-wrap col-sm-12 " >
+			<div class="row  section-intro  animate-this">
+				<div class="col-sm-12">
+					<h1>Lista de precios</h1>  			
+					<p class="lead">proximamente</p>	   			
+				</div>   		
+			</div> <!-- end row section-intro -->   		
+		</div> <!-- end intro-wrap -->
 
-		<div class="row">
 
-			<div class="col-three tab-full footer-about">
 
-				<h4 class="h05">Infinity.</h4>
+		
 
-				<p class="col-nine"><img src="../images/qrafip.jpg" alt="Author image"></p>
 
-			</div> <!-- end footer-about -->
 
-			<div class="col-three tab-full footer-social">
 
-				<h4 class="h05">Follow Us.</h4>
-
-				<ul class="list-links">
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Behance</a></li>
-					<li><a href="#">Dribble</a></li>
-				</ul>
-
-			</div> <!-- end footer-social -->
-
-			<div class="col-four tab-full footer-subscribe end">
-
-				<h4 class="h05">Get Notified.</h4>
-
-				<p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa.</p>
-
-				<div class="subscribe-form">
-
-					<form id="mc-form" class="group" novalidate="true">
-
-						<input type="email" value="" name="dEmail" class="email" id="mc-email"
-							placeholder="type email" required="">
-
-						<!-- <input type="submit" name="subscribe" > -->
-						<button><i class="icon-mail"></i></button>
-
-						<label for="mc-email" class="subscribe-message"></label>
-
-					</form>
-
-				</div>
-
-			</div> <!-- end footer-subscribe -->
-
-		</div> <!-- end row -->
-
-	</div> <!-- end footer-main -->
-
-	<div class="footer-bottom">
-
-		<div class="row">
-
-			<div class="col-twelve">
-				<div class="copyright">
-					<span>© Copyright Infinity 2016.</span>
-					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
-				</div>
-			</div>
-
-		</div>
-
-	</div> <!-- end footer-bottom -->
-
-</footer>
 
 
 </body>
-<script src="../js/listasService.js"></script>
+<script src="../js/src/plugins.js"></script>
+<script src="../js/src/main.js"></script>
+<script src="../js/ofertasService.js"></script>
 </html>

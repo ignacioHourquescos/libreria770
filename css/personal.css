@@ -4,9 +4,8 @@
   position:fixed;
   bottom:0;
   width:100%;
-  z-index:10000;
+  z-index:10;
 }
-
 
 #WAButton {
     /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -109,7 +108,7 @@
     background:rgb(2, 0, 15);
   }
 
-  * ------------------------------------------------------------------- */
+  /*----------------------------------------------------------------- */
   #portfolio {
     background: #FFFFFF;
     min-height: 100px;
@@ -147,3 +146,9 @@
     clear: both;
   }
   
+/*------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  #iframe{
+    display: none;
+  }
+}
