@@ -1,11 +1,22 @@
-.container {
+.container-carusel {
   background-color:white;
   padding: 5px;
-  display: flex;
-  
 }
 
 .carousel-logo {
-  width: 30%;
-  height: 30px;
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel-logo {
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
+  }
 }
