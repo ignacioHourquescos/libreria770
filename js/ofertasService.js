@@ -27,7 +27,7 @@ function insertarDatosEnNuevoDiv(elemento,data,i){
 	$(elemento).find('.titulo').text(data.feed.entry[i].gsx$promo.$t);
 	$(elemento).find('.detalle').text(data.feed.entry[i].gsx$descripcion.$t);
 	$(elemento).find('.preciolista').text(data.feed.entry[i].gsx$preciolista.$t);
-	$(elemento).find('.preciooferta').text(data.feed.entry[i].gsx$preciooferta.$t);
+	$(elemento).find('.precioOferta').text(data.feed.entry[i].gsx$preciooferta.$t);
 	$(elemento).find('.card').addClass('color'+idColor); 
 	$(".competencias").append(elemento);
 	$(elemento).find('.imagenOferta').attr("src",data.feed.entry[i].gsx$urlimagen.$t);
