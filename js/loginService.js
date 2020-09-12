@@ -1,21 +1,29 @@
-document.getElementById("login").addEventListener("click", redireccionarAPanel);
+
+
+//document.getElementById("login").addEventListener("click", redireccionarAPanel(password));
 
 
 
-// function ingresarAPanel(password){
-//     var password=document.getElementById("password").value;
-//     console.log(password);
-//     if (password=="770"){
-//         window.location.replace("ofertasData.html")
-//     }else{
-//         alert("Password incorrecto")
-//     }
-// }
-
-function myFunction() {
-    window.location.replace("https://www.w3schools.com")
-  }
 function redireccionarAPanel(){
-    //alert("algo de todo esto funciona");
-    location.replace("ofertasData.html");
+     var password=document.getElementById("password").value;
+    if (password=="770"){
+    alert("corecto");
+
+    window.location.replace("http://www.w3schools.com");
+    }else{
+        alert("Password incorrecto")
+        return false;
+    }
 }
+
+
+// function redireccionarAPanel(){
+//     //alert("algo de todo esto funciona");
+
+//     if (password=="770"){
+//       location.replace("ofertasData.html");
+//   }else{
+//       alert("Password incorrecto")
+//   }
+   
+// }

@@ -70,6 +70,9 @@ body {
   color: #353535;
   margin: 0;
   padding: 0;
+  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+  zoom: 0.8; /* Other non-webkit browsers */
+  zoom: 80%; /* Webkit browsers */
 }
 
 /* ------------------------------------------------------------------- 
@@ -720,6 +723,7 @@ input[type="button"] {
   display: inline-block;
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
+  margin:1em;
   text-transform: uppercase;
   letter-spacing: .3rem;
   height: 5.4rem;
@@ -2503,8 +2507,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #clients {
-  background-color: transparent;
-  padding: 2rem 0 2rem;
+  background-color: black ;
+  padding: 1rem 0 1rem;
 }
 #clients .client-lists .owl-item {
   opacity: .6;
