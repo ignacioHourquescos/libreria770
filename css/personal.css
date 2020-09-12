@@ -13,8 +13,6 @@
     /* When the animation is finished, start again */
     animation-iteration-count: 0;
   }
-<<<<<<< HEAD
-=======
   
   *#WAButton:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -22,27 +20,62 @@
   
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
-  /*}*/
+  }
   
->>>>>>> c521f3885b9462f03b81319b38d24db56b9bf860
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
  
   }
+
   
 
 
 /* ofertas */
-
-.imagenOferta{
-  width:100%;
-  height:100%;
+div.card-body{
+  padding: 20px;
+  background-color: #FFF;
+  box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.479);
 }
 
-.rectanguloOfertas{
- height:15%;
+div.card-footer{
+  background-color: black;
 }
 
+.titulo-card {
+  width: 85px;
+  height: 45px;
+  padding: 1.5px;
+  background-color: green;
+}
+
+.imagenOferta {
+  width: 220px;
+  height: 220px;
+}
+
+.card-image-container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span.detalle {
+  font-size: 20px;
+}
+.precio-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.precio-container span {
+  padding: 0;
+  font-size: 32px;
+}
+.preciolista {
+  text-decoration-line: line-through;
+  color: gray;
+}
 
 /* FAQ*/
 #myInputCodigo {
