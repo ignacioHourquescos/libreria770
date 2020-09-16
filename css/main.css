@@ -720,6 +720,7 @@ input[type="button"] {
   display: inline-block;
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
+  margin:0.5em 1em;
   text-transform: uppercase;
   letter-spacing: .3rem;
   height: 5.4rem;
@@ -2691,11 +2692,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .2rem;
   height: 6rem;
   line-height: 6rem;
-  padding: 0 3rem;
+  padding: 0rem;
   width: 100%;
-  background: #f9a828;
-  color: #000000;
+  background: #4251f8;
+  color:white;
   margin-top: .6rem;
+  text-align: center;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
   background: #f89e0f;

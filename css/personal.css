@@ -132,9 +132,32 @@ span.detalle {
       text-align: center;
       white-space: normal;
     }
+    #logo{
+      width:80%;
+    }
   }
 
-
+  #slogan{
+    font-size:4Vmin;
+  }
+  @media only screen and (min-width: 481px) {
+    .accordion{
+      font-size: 80%;
+      display:block;
+      width:100%;
+      display: block;
+      width: 100%;
+      color: white;
+      text-align: center;
+      white-space: normal;
+    }
+    #logo{
+      width:60%;
+      text-align: center;
+    }
+  
+  }
+  
   #portfolio .intro-wrap {
     padding: 3rem 0 0rem;
     height:40em;
@@ -180,8 +203,11 @@ span.detalle {
   }
   
 /*------------------------------------------------------------------------*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600x) {
   #iframe{
     display: none;
+  }
+  #logo{
+    width:10%;
   }
 }
