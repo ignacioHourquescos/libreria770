@@ -2,18 +2,18 @@
 
 function cargarOfertas () {
 		//busca en el backend todas las ofertas
+		$("#plantilla").hide();
 		$.getJSON(('https://spreadsheets.google.com/feeds/list/1OS6vvVKksK6UptapP20_P6Q1TAPOk4QR6p2eslv9XKE/1/public/values?alt=json'), function (data) {
 		var numeroDePromociones = data.feed.entry.length;
 		for (var i = 0; i < numeroDePromociones; i++) {
-			// Se clona la plantilla y la nueva copia ya no es una plantilla
 			var divCompetencia = $(".competenciaPlantilla").clone().removeClass("competenciaPlantilla");
-			// Se coloca el id correcto (data[i].id) de cada competencia en los links de acciones
 			$(divCompetencia).find('.link').each( function(){
 				$( this ).attr("href",$( this ).attr("href")+data.recordset[i].cod_articulo);
 				});
-			insertarDatosEnNuevoDiv(divCompetencia,data,i);
+			insertarDatosEnNuevoDiv(divCompetencia,data,i+1);
+			
 		}
-		$("#plantilla").remove(); // remueve la plnatilla que se carga con la pagina
+		//$("#plantilla").remove(); // remueve la plnatilla que se carga con la pagina
 	});
 }
 
