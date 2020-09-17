@@ -720,6 +720,10 @@ input[type="button"] {
   display: inline-block;
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
+  margin: 0em;
+  margin-left:0.2em;
+  margin-right:0.2em;
+  margin-bottom:0.5em;
   text-transform: uppercase;
   letter-spacing: .3rem;
   height: 5.4rem;
@@ -1408,7 +1412,7 @@ header .header-logo a {
   border-top: 1px dotted rgba(255, 255, 255, 0.03);
 }
 #menu-nav-wrap .nav-list li a {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.816);
   display: block;
 }
 #menu-nav-wrap .nav-list li a:hover, 
@@ -1515,7 +1519,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/fondoAzul.jpg);
+  background-image: url(../images/fondoazul2.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -2553,8 +2557,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #contact {
-  background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
+  background-color: #11111155;
+  background-image: url(../images/muchosLapices.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2570,7 +2574,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 100%;
   height: 100%;
   opacity: .75;
-  background-color: #000000;
+  background-color: #000000e3;
 }
 #contact .section-intro h1 {
   color: white;
@@ -2666,9 +2670,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact input[type="email"],
 #contact textarea {
   width: 100%;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
   margin-bottom: 3.6rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(180, 223, 241, 0.353);
 }
 
 #contact input[type="text"]:focus,
@@ -2691,11 +2695,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .2rem;
   height: 6rem;
   line-height: 6rem;
-  padding: 0 3rem;
+  padding: 0rem;
   width: 100%;
-  background: #f9a828;
-  color: #000000;
+  background: #5863dcd4;
+  color:white;
   margin-top: .6rem;
+  text-align: center;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
   background: #f89e0f;

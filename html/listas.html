@@ -1,76 +1,64 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
-		
-		<title>Ofertas del Mes</title>
-		<script src="../js/src/jquery.js"></script>
-		<script src="../js/src/helpers.js"></script>
-		<link rel="stylesheet" href="../css/micons/micons.css">
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-    	<link rel="stylesheet" type="text/css" href="../css/main.css">
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="../css/personal.css">
-		<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
-
-		</head>
-
-<!--salto de linea en negro al ppio de la hoja-->
-<div style="color:black; display:inline-block"></div>
-
-<body id="top">
-<!--Div where the WhatsApp will be rendered-->
-<div id="WAButton" style="font-family: Arial, Helvetica, sans-serif; z-index:10;"></div>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <title> Lista de precios </title> 
+  <!-- css styles             --><link rel="stylesheet" type="text/css" href="../css/style.css">
+  <!-- css main               --><link rel="stylesheet" type="text/css" href="../css/main.css">
+  <!-- css personal           --><link rel="stylesheet" type="text/css"href="../css/personal.css">  
+  <!-- css personal           --><link rel="stylesheet" href="../css/listaEspecificaEstilo.css">  
+</head> 
 
 
-<!-- SIDE MENU
+
+
+<!-- TABLA DE LISTA DE PRECIOS
 ================================================== -->
-<header>
-	<a id="header-menu-trigger" href="#0">
-		<span class="header-menu-text">Menu</span>
-		<span class="header-menu-icon"></span>
-	</a>
-	<nav id="menu-nav-wrap">
-		<a href="#0" class="close-button" title="close"><span>Close</span></a>
-		<h3>Libreria770</h3>
-		<ul class="nav-list">
-			<li class="current"><a class="smoothscroll" href="../index.html" title="">Home</a></li>
-			<li><a class="" href="listas.html" title="">Listas</a></li>
-			<li><a class="" href="ofertas.html" title="">Ofertas</a></li>
-			<li><a class="" href="./login.html" title="">Admin</a></li>
-			<!-- <li><a class="" href="listas.html" title="">Ingresar a mi cuenta</a></li>						 -->
-		</ul>
-	</nav> <!-- end #menu-nav-wrap -->
+<body> 
 
-</header> <!-- end header -->  
-
-
-<!-- SECCION DE OFERTAS
-================================================== -->
-<section class="container-fluid" id="portfolio">
-
-		<div class="intro-wrap col-sm-12 " >
-			<div class="row  section-intro  animate-this">
-				<div class="col-sm-12">
-					<h1>Lista de precios</h1>  			
-					<p class="lead">proximamente</p>	   			
-				</div>   		
-			</div> <!-- end row section-intro -->   		
-		</div> <!-- end intro-wrap -->
-
-
-
-		
-
-
-
-
+	<div class="container-fluid cabecera"> 
+		<h1 id="nombreLista"></h1>
+		<h2 id="ultimaActualizacion">Ultima actulizacion: Sep 2020</h2>
+	</div>
+	
+<section id="seccionLista">
+	<div class="intro-wrap col-sm-12" style="height:80%;">
+      		<div class="col-sm-12"></div>			 
+				<div class="container-fluid tabla">  
+					<table	class="border-success" 
+							style="background-color:rgb(255, 255, 255)" 
+							width=100%
+							id="myTable"
+							data-buttons-class="danger"
+							data-mobile-responsive="true"
+							data-mobile-responsive="true"
+							data-search-align="left"
+							data-search="true"
+							data-show-export="true"
+							data-show-columns="true"
+							data-key-events="true"
+							data-fixed-columns="true"
+							data-show-print="true"					 
+							data-toolbar-align="left">
+						<thead class="thead-dark"> 
+							  <tr> 
+								  <th data-field="id">  						Articulo		</span style="text-align: center;"></th> 
+								  <th data-field="d" class="text-wrap">  						Descripcion		</span style="text-align: left;"> </th> 
+								  <th data-field="p" data-width="90" class="text-right">    		Precio sin IVA 	</span> </th>
+								  <th data-field="pf" data-width="90"class="text-right">  	Precio con IVA 	</span> </th>  
+							  </tr> 
+						</thead> 
+					</table> 
+				</div> 
+			</div>   		
+</section>
 
 
-</body>
-<script src="../js/src/plugins.js"></script>
-<script src="../js/src/main.js"></script>
-<script src="../js/ofertasService.js"></script>
+
+
+
+<script src="../js/listaEspecificaService.js"></script>
+
+</body> 
 </html>
