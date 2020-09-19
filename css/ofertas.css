@@ -60,7 +60,7 @@ div.card-body{
   }
 
   .imagenOferta {
-    height:30vmin;
+    height:20rem;
     width:100%;
 
   }
@@ -68,7 +68,7 @@ div.card-body{
   .card-footer{
     background-color:#fbbe17;
     border-radius: 5px;
-    height:14vmin;
+    height:14rem;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -86,7 +86,7 @@ div.card-body{
     align-items: center;
   }
   span.detalle {
-    font-size: 2vmin;
+    font-size:1.5rem;
     color:black;
   }
   .precio-container {
@@ -100,13 +100,13 @@ div.card-body{
    
   }
   .preciolista {
-    font-size: 3Vmin;
+    font-size: 2rem;
     text-decoration-line: line-through;
     color: rgb(152, 149, 149);
   }
 
   .precioOferta {
-    font-size: 4Vmin;
+    font-size:3rem;
    font-weight:bold;
     color: rgb(0, 0, 0);
   }
