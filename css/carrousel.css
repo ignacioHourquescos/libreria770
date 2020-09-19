@@ -1,6 +1,6 @@
 .container-carusel {
-  background-color:white;
-  padding: 5px;
+  background-color: black;
+  padding: 5px 80px;
 }
 
 .carousel-logo {
@@ -12,11 +12,35 @@
   max-height: 300px;
 }
 
+.slick-arrow {
+  opacity: 0;
+  display: none;
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  .container-carusel {
+    padding: 5px 30px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+
+  .container-carusel {
+    padding: 5px 10px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .carousel-logo {
     width: 140px;
     height: 140px;
     min-width: 140px;
     min-height: 140px;
+  }
+
+  .container-carusel {
+    padding: 5px;
   }
 }
