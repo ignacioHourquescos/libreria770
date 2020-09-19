@@ -1,0 +1,19 @@
+/*--------- CUSTOM LAYOUT ---------*/
+
+
+body {
+	background-color: #2D3E52;
+	color: #FFF;
+
+    text-align: center;
+}
+
+
+#cabecera{
+    background-image: url(../images/fondoazul2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:15em;
+    padding-top:5em; 
+    padding-bottom:20em;
+}
