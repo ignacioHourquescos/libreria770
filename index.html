@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
 	<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
 
+	<script data-cfasync="false" src="form-submission-handler.js"></script>
 	<script src="./js/src/modernizr.js"></script>
 	<script src="./js/src/pace.min.js"></script>
 	<script src="./js/carusel.js"></script>
@@ -332,44 +333,50 @@
 	<!-- CONTACTO
 ================================================== -->
 	<section id="contact">
-
 		<div class="overlay"></div>
-
 		<div class="row narrow section-intro with-bottom-sep animate-this">
 			<div class="col-twelve">
-				<h3>Contact</h3>
 				<h1>Contactenos</h1>
-<!--   -->
 			</div>
 		</div> 
 		<div class="row contact-content">
 			<div class="col-seven tab-full animate-this">
 				<h5>Mandanos un mensaje</h5>
-				<form name="contactForm" id="contactForm" method="post">
-					<div class="form-field">
-						<input name="contactName" type="text" id="contactName" placeholder="Nombre" value=""minlength="2" required="">
-					</div>
-					<div class="form-field">
-						<input name="contactEmail" type="email" id="contactEmail" placeholder="Mail o telefono" value=""required="">
-					</div>
-					<div class="form-field">
-						<textarea name="contactMessage" id="contactMessage" placeholder="Mensaje" rows="10" cols="50"required=""></textarea>
-					</div>
-					<div class="form-field">
-						<button class="submitform">Enviar</button>
-						<div id="submit-loader">
-							<div class="text-loader">Enviando</div>
-							<div class="s-loader">
-								<div class="bounce1"></div>
-								<div class="bounce2"></div>
-								<div class="bounce3"></div>
+    				<form class="gform pure-form pure-form-stacked" method="POST" data-email="ihourquescos@gmail.com" action="https://script.google.com/macros/s/AKfycbxgC4RPXavEWd5pQV4uV6iVmBev4pjsy9anmNZMgQ/exec">
+ 						<div class="form-elements">
+							<fieldset class="pure-group"><input 	id="name" 		name="name"  	type="text" value="" 	placeholder="Nombre"/></fieldset>
+ 				    		<fieldset class="pure-group"><textarea 	id="message" 	name="message" 	rows="10" 				placeholder="Mensaje"></textarea></fieldset>
+ 				    		<fieldset class="pure-group"><input 	id="email" 		name="email" 	type="email" value="" 	placeholder="your.name@email.com"/></fieldset>
+
+ 						    <div class="form-field">
+								<button class="submitform">Enviar</button>
+								<div id="submit-loader">
+									<div class="text-loader">Enviando</div>
+									<div class="s-loader">
+										<div class="bounce1"></div>
+										<div class="bounce2"></div>
+										<div class="bounce3"></div>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
+ 						</div>
+					   
+ 						  <!-- Customise the Thankyou Message People See when they submit the form: -->
+ 						  <div class="thankyou_message" style="display:none;">
+ 						    <h2><em>Thanks</em> for contacting us!
+ 						      We will get back to you soon!</h2>
+ 						  </div>
+					   
+						   
+ 					</form>
 
-				</form>
+  				<!-- Submit the Form to Google Using "AJAX" -->
 
-				<!-- contact-warning -->
+
+
+
+<!--MENSAJE DEPSUESD EENVIADO ORIGIAAL-->				
+
 				<div id="message-warning"></div>
 
 				<!-- contact-success -->
