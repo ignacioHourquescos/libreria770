@@ -122,12 +122,12 @@
   #portfolio .intro-wrap {
     padding: 3rem 0 0rem;
     height:20em;
-    background-color: rgb(231, 243, 248);
+    background-color:  transparent;
   }
 
   /*----------------------------------------------------------------- */
   #portfolio {
-    background-color: rgb(231, 243, 248);
+    background:linear-gradient( rgb(0, 0, 0) 20%,#56599d);
     min-height: 100px;
     position: relative;
     padding-top:12rem;;
@@ -135,10 +135,10 @@
 
  
   #portfolio .section-intro h1 {
-    color: #111224;
+    color: #ffffff;
   }
   #portfolio .section-intro .lead {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   #portfolio .portfolio-content {
     margin-top: 0rem;
@@ -170,3 +170,57 @@
     width:10%;
   }
 }
+
+
+/*---------------------GALERIA DE FOTOS BOOTSRAP---------------*/
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%; 
+}
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+  
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); 
+}
+  
+@media (max-width: 450px) {
+  .gallery {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+
+  }
+
+}
+  
+
+@media only screen and (max-width: 400px){
+  #divGaleria{
+    padding:1rem;
+  }
+}
+
+
+  @media (max-width: 400px) {
+  .btn.filter {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  }
+}
+@media only screen and (min-width: 600px){
+  #divGaleria{
+    padding:0rem 20rem;
+    padding-bottom: 5rem;
+  }
+}
+  
