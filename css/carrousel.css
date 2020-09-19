@@ -4,11 +4,7 @@
 }
 
 .carousel-logo {
-  width: 200px;
-  height: 200px;
-  min-width: 200px;
-  min-height: 200px;
-  max-width: 300px;
+  width: 5em;
   max-height: 300px;
 }
 
@@ -18,26 +14,14 @@
 }
 
 
-@media only screen and (max-width: 780px) {
 
-  .container-carusel {
-    padding: 5px 30px;
-  }
-}
-
-@media only screen and (max-width: 680px) {
-
-  .container-carusel {
-    padding: 5px 10px;
-  }
-}
 
 @media only screen and (max-width: 480px) {
   .carousel-logo {
-    width: 140px;
-    height: 140px;
-    min-width: 140px;
-    min-height: 140px;
+    width: 7em;
+
+
+    
   }
 
   .container-carusel {

@@ -1,19 +1,118 @@
 /*--------- CUSTOM LAYOUT ---------*/
 
 
-body {
-	background-color: #2D3E52;
-	color: #FFF;
-
+#body {
+    
+	background-color: #111224;
     text-align: center;
+    margin:0px;
+    padding:0px;
+
 }
 
 
-#cabecera{
+.cabecera{
     background-image: url(../images/fondoazul2.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height:15em;
-    padding-top:5em; 
-    padding-bottom:20em;
+    height:15rem;
+    margin:0px;
+    padding:5rem;
+    padding-bottom:20rem;
+    
+}
+
+
+
+.cabecera h1{
+    font-family: "librebaskerville-bold", serif;
+    font-size: 4.8rem;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+.cabecera h2{
+    font-size:4vmin;
+    text-align:center;
+    color:white;
+    text-shadow: 1px 1px 2px #000000;
+} 
+
+
+/* ofertas */
+div.card-body{
+    padding: 0px;
+    background-color: #FFF;
+    box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.479);
+    border-radius:3px;
+  }
+
+  .titulo-card {
+  
+    text-align: center;
+    padding: 1.5px;
+    padding-bottom:0.5 rem;
+    background-color: rgb(148, 169, 247);
+    border-top-left-radius: 3px ;
+    border-top-right-radius: 3px ;
+  }
+
+  .imagenOferta {
+    height:30vmin;
+    width:100%;
+
+  }
+  
+  .card-footer{
+    background-color:#fbbe17;
+    border-radius: 5px;
+    height:14vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: space-between;
+  
+  }
+  
+
+    
+  .card-image-container {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span.detalle {
+    font-size: 2vmin;
+    color:black;
+  }
+  .precio-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .precio-container span {
+    padding: 0;
+
+   
+  }
+  .preciolista {
+    font-size: 3Vmin;
+    text-decoration-line: line-through;
+    color: rgb(152, 149, 149);
+  }
+
+  .precioOferta {
+    font-size: 4Vmin;
+   font-weight:bold;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+.competencias{
+    padding-top:5rem;
 }
