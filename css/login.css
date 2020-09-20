@@ -1,5 +1,6 @@
 body{
-  background-color: rgb(7, 3, 20) ;
+  background-image: url(../images/fondotriangulosgrises.jpg);
+  width:100%;
 }
 
 .login-page {
@@ -11,7 +12,7 @@ body{
 .form {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background-color: #111224;
   max-width: 70%;
   margin: 0 auto 100px;
   padding: 45px;
