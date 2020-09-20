@@ -2,8 +2,10 @@
 
 
 #body {
-    
-	background-color: #111224;
+  
+  background-image: url(../images/fondotriangulosgrises.jpg);
+  background-color: #ffffff;
+  width:100%;
     text-align: center;
     margin:0px;
     padding:0px;
@@ -12,8 +14,9 @@
 
 
 .cabecera{
-    background-image: url(../images/fondoazul2.jpg);
-    background-repeat: no-repeat;
+  
+  background-color: #111224;
+   
     background-size: 100%;
     height:15rem;
     margin:0px;
@@ -45,30 +48,52 @@
 div.card-body{
     padding: 0px;
     background-color: #FFF;
-    box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.479);
+    box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.8);
     border-radius:3px;
   }
 
   .titulo-card {
-  
+
     text-align: center;
     padding: 1.5px;
     padding-bottom:0.5 rem;
-    background-color: rgb(148, 169, 247);
+    background-color: #111224;
     border-top-left-radius: 3px ;
     border-top-right-radius: 3px ;
   }
 
+
+  @media (min-width: 450px) {
   .imagenOferta {
     height:20rem;
     width:100%;
 
   }
+  #plantilla{
+    text-align: center;
+    padding:1.5rem;
+  }
+
+}
+
+  @media (max-width: 450px) {
+     .imagenOferta {
+      height:15rem;
+      width:100%;
   
+    }
+    #plantilla{
+      text-align: center;
+      padding: 0.5rem ;
+  
+  }
+}
+
+
   .card-footer{
     background-color:#fbbe17;
     border-radius: 5px;
-    height:14rem;
+    height:15%;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -85,6 +110,8 @@ div.card-body{
     justify-content: center;
     align-items: center;
   }
+
+
   span.detalle {
     font-size:1.5rem;
     color:black;
