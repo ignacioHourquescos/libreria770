@@ -3,7 +3,7 @@
 
 #body {
   
-  background-image: url(../images/fondotriangulosgrises.jpg);
+  /* background-image: url(../images/fondoazul6.jpg); */
   background-color: #ffffff;
   width:100%;
     text-align: center;
@@ -48,8 +48,11 @@
 div.card-body{
     padding: 0px;
     background-color: #FFF;
-    box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.8);
-    border-radius:3px;
+    -webkit-box-shadow: -4px 4px 38px -6px rgba(0,0,0,0.5);
+-moz-box-shadow: -4px 4px 38px -6px rgba(0,0,0,0.5);
+box-shadow: -4px 4px 38px -6px rgba(0,0,0,0.5);
+    
+    border-radius:7px;
   }
 
   .titulo-card {
@@ -58,8 +61,8 @@ div.card-body{
     padding: 1.5px;
     padding-bottom:0.5 rem;
     background-color: #111224;
-    border-top-left-radius: 3px ;
-    border-top-right-radius: 3px ;
+    border-top-left-radius: 7px ;
+    border-top-right-radius: 7px ;
   }
 
 
@@ -92,12 +95,13 @@ div.card-body{
 
   .card-footer{
     background-color:#fbbe17;
-    border-radius: 5px;
     height:15%;
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    text-align: initial;
     justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-end-end-radius: 10px;
   
   }
   
