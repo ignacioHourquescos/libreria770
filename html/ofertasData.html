@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
     	<link rel="stylesheet" type="text/css" href="../css/main.css">
 		<link rel="stylesheet" type="text/css" href="../css/baseBackend.css">
+		<link rel="stylesheet" type="text/css" href="../css/ofertasData.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="../js/src/jquery.js"></script>
 	</head>
@@ -45,13 +46,14 @@
 	<h1>Panel de Control</h1>
 </div>
 
-<section>		
-	<select class="form-control" id="seleccionLista">
-		<option>1</option>
-		<option>2</option>
+<section>	
+	<div id="seccionLista">	
+	<select class="form-control form-control-lg" id="seleccionLista">
+		<option>Normal</option>
+		<option>Warnes</option>
 	</select>
   		
-	<div style="display:flex; justify-content:center;">
+	<div>
 			<iframe id="iframe" src="https://docs.google.com/spreadsheets/d/1OS6vvVKksK6UptapP20_P6Q1TAPOk4QR6p2eslv9XKE/edit?usp=sharing&
 			rm=minimal&amp;
 			range=A1:C3&amp;
@@ -62,21 +64,19 @@
 			frameborder=10% 
 			sytle="border:40px;"
 			width=80% 
-			padding=10px
-			height=1000px
-			style="position:relative; top: 110px; left: 0px;">
+			height=1000px>
 			</iframe>
 		</div>
-			
+	</div>			
 </section> 
 
 <div id="infinite" ></div>
 
-https://docs.google.com/spreadsheets/d/1R5PAunP3ppaS2SOcTf6z2_BTOBlWxAIED1zxWnEg1us/edit?usp=sharing
+
 
 
 </body>
 <script src="../js/src/plugins.js"></script>
 <script src="../js/src/main.js"></script>
-<script src="../js/ofertasService.js"></script>
+<script src="../js/ofertaDataService.js"></script>
 </html>

@@ -1,0 +1,17 @@
+#seleccionLista{
+  width:30%;
+  margin-left:10%;
+  margin-bottom:2rem;
+}
+
+#seccionLista{
+  background-color:wihte;
+  display:flex;
+  flex-direction:column;
+  padding-top:2rem;
+
+  justify-content: center;
+  text-align: center;
+
+
+}
