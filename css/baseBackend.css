@@ -31,13 +31,13 @@ iframe {
   left: 0px;
 }
 
-#infinite {
-  background: #ffffff;
-  height: 200px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  z-index: 10;
+#infinite{
+  background:linear-gradient(transparent, white 50%);
+  height:20%;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  z-index:10;
 }
 
 /*# sourceMappingURL=baseBackEnd.css.map */
