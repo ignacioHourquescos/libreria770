@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Ofertas del Mes</title>
 		<meta charset="UTF-8">
 		<meta name="format-detection" content="telephone=no">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
-		
-		<title>Ofertas del Mes</title>
-		<script src="../js/src/jquery.js"></script>
-		<script src="../js/src/helpers.js"></script>
-		<link rel="stylesheet" href="../css/micons/micons.css">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
     	<link rel="stylesheet" type="text/css" href="../css/main.css">
-    
 		<link rel="stylesheet" type="text/css" href="../css/baseBackend.css">
-		</head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="../js/src/jquery.js"></script>
+	</head>
 
 
 
-<body id="top" height=100px>
-<!--Div where the WhatsApp will be rendered-->
+<body>
 
 
 <!-- SIDE MENU
@@ -49,8 +45,13 @@
 	<h1>Panel de Control</h1>
 </div>
 
-<section >		  		
-	<div   style="display:flex; justify-content:center;">
+<section>		
+	<select class="form-control" id="seleccionLista">
+		<option>1</option>
+		<option>2</option>
+	</select>
+  		
+	<div style="display:flex; justify-content:center;">
 			<iframe id="iframe" src="https://docs.google.com/spreadsheets/d/1OS6vvVKksK6UptapP20_P6Q1TAPOk4QR6p2eslv9XKE/edit?usp=sharing&
 			rm=minimal&amp;
 			range=A1:C3&amp;
@@ -63,7 +64,7 @@
 			width=80% 
 			padding=10px
 			height=1000px
-			style="position:relative; top: 160px; left: 0px;">
+			style="position:relative; top: 110px; left: 0px;">
 			</iframe>
 		</div>
 			
@@ -71,8 +72,7 @@
 
 <div id="infinite" ></div>
 
-
-
+https://docs.google.com/spreadsheets/d/1R5PAunP3ppaS2SOcTf6z2_BTOBlWxAIED1zxWnEg1us/edit?usp=sharing
 
 
 </body>

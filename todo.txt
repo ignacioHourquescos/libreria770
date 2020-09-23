@@ -6,5 +6,26 @@
 1 - 30 min lista de precios ->  copiar formato de ofertas
 1 - 20 min Ofertas -> ver amaño box 10
 2 - 30 min copiar otra ruta para ofertas de warnes
-2 - 30 min adaptar ofertasDATA a ofertas tamaño mas chico header
+
 2 - 30 min poner un boton para cambiar de hoja 
+
+
+
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSF1Vy5VeCieoKhVXYHUWPWmus4iNsPJgSfIblLBhdUpsC2ILanjtpWmSYxPoHB7jo7y0m0Egn3ngde/pubhtml?gid=0&widget=true&amp;headers=false"></iframe>
+			
+			https://docs.google.com/spreadsheets/d/1OS6vvVKksK6UptapP20_P6Q1TAPOk4QR6p2eslv9XKE/edit?usp=sharing
+			
+			<!-- src="https://docs.google.com/spreadsheets/d/1OS6vvVKksK6UptapP20_P6Q1TAPOk4QR6p2eslv9XKE/2/edit?usp=sharing&
+			rm=minimal&amp;
+			range=A1:C3&amp;
+			single=true&amp;
+			headers=false&amp;
+			widget=false&amp;
+			chrome=false" 
+			frameborder=10%      1848854061
+			sytle="border:40px;"
+			width=80% 
+			padding=10px
+			height=1000px
+			style="position:relative; top: 110px; left: 0px;"> -->

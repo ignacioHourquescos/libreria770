@@ -83,7 +83,7 @@ h1 {
 }
 
 mark {
-  background: #ff0;
+  background: rgb(0, 0, 0);
   color: #000;
 }
 
