@@ -36,6 +36,8 @@
     text-rendering: optimizeLegibility;
 }
 
+
+
 .cabecera h2{
     font-size:4vmin;
     text-align:center;
@@ -77,6 +79,7 @@ box-shadow: -4px 4px 38px -6px rgba(0,0,0,0.5);
     padding:1.5rem;
   }
 
+
 }
 
   @media (max-width: 450px) {
@@ -89,6 +92,10 @@ box-shadow: -4px 4px 38px -6px rgba(0,0,0,0.5);
       text-align: center;
       padding: 0.5rem ;
   
+  }
+
+  .cabecera h1{
+    font-size: 3rem;
   }
 }
 
