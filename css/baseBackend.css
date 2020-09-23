@@ -26,5 +26,18 @@ body {
     font-size: 3rem;
   }
 }
+iframe {
+  top: 80px;
+  left: 0px;
+}
+
+#infinite {
+  background: #ffffff;
+  height: 200px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
 
 /*# sourceMappingURL=baseBackEnd.css.map */
