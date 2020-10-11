@@ -36,7 +36,9 @@
     text-rendering: optimizeLegibility;
 }
 
-
+#envioSinCargo{
+  color:orange;
+}
 
 .cabecera h2{
     font-size:4vmin;

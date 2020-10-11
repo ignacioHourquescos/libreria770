@@ -5,22 +5,27 @@ const constantes ={
   tituloServicios1:
   "ARTICULOS DE ESCRITORIO Y OFICINAS",
   descServicios1: 
-  "Amplia gama de articulos para ofiicnas, elementos de escritura. Trabajamos primeras y segundas marcas, originales y alternativos. insumos para impresoras fiscales",
+  "Amplia gama de articulos para oficinas, elementos de escritura. Trabajamos primeras y segundas marcas, originales y alternativos. insumos para impresoras fiscales",
   
   tituloServicios2:
   "SERVICIOS DE SELLOS Y DOCUMENTACION",
   descServicios2:
-  "Taller de sello propios. ANillados y duplicaciones de docuemtnos",
+  "Taller de sello propios. Anillados y duplicaciones de documentos",
   
   tituloServicios3:
   "SERVICIOS ESPECIALES",
   descServicios3:
-  "Tramites IGJ, rubrica copiado y venta de libros comerciales, copias autenticadas por escribano",
+  "Tramites IGJ, rubrica, copiado y venta de libros comerciales, copias autenticadas por escribano",
 
   tituloServicios4:
   "EMBALAJE; SOBRES CINTAS Y PEGAMENTO",
   descServicios4:
-  "Linea completo de articulos para embalaje. Sobres, cajas, Pegamentos vinilicos ",
+  "Linea completo de articulos para embalaje para encomiendas. Sobres, cajas y pegamentos vinilicos ",
+
+  tituloServicios5:
+  "IMPRESORAS Y CARTUCHOS",
+  descServicios5:
+  "Primeras marcas: Borther, epson y HP y linea ecnonómica. Impresoras y venta de Cartuchos / Toners",
 
 }
 
@@ -55,6 +60,8 @@ inserstartextos("tituloServicios3", constantes.tituloServicios3);
 inserstartextos("descServicios3",   constantes.descServicios3);
 inserstartextos("tituloServicios4", constantes.tituloServicios4);
 inserstartextos("descServicios4",   constantes.descServicios4);
+inserstartextos("tituloServicios5", constantes.tituloServicios5);
+inserstartextos("descServicios5",   constantes.descServicios5);
 
 
 
