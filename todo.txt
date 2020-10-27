@@ -1,32 +1,11 @@
 
-1 - 20 min bloque de texto inicio (ver con Laura)
-1 - 20 min Ofertas -> ver amaño box 10
-
-
-- el  IG , tiene que aparecer algo cuándo tocan?
-- cambiar el nombre de las listas, podría ser oficina y hogar , la otra embalaje
-- en la portada/ home tiene que tener fotos de toner HP ( HP 105 / HP 17/HP 83 /HP 85)
-- la parte de contacto está muy oscura
-- el mapa de google tiene el domicilio de talcahuano 770, cambiar al actual 716
-- tiene que haber algo en el home , que me indique bajar con el cursor, porque cómo que uno no baja para ver el resto de la pág.
-- tu aliado en insumos de librería y computación, figura o no?
-
 
 
 - en la parte de embalaje tiene que estar escrito corrugados-pluribal-cajas-streech
-Ok. modifico.    
-
 - en ofertas agregar y cambiar artículos - cómo cambio yo las imágenes?y los precios?  
-
 - que diga en algún lugar, muchos productos más.
-Ok. modifico
-- cómo compartir la página'?
-
-
+- cómo compartir la página'
 - tiene que figurar: formularios automotor, ventas a empresas, delivery sin cargo
-Ok. modifico
-
-
 - por otro lado,fijate en las web de  staples / mercado de la oficina / lyris / casa ABE para sacar ideas.
 ESCRITURA FINA y REGALERIA
 
@@ -41,6 +20,16 @@ ESCRITURA FINA y REGALERIA
 1 - 15 min fondo de imagen articulos escolares cambiar
 1 - 20 min Fotos INdex.html
 1 - 30 min lista de precios ->  copiar formato de ofertas
+1 - 20 min bloque de texto inicio (ver con Laura)
+1 - 20 min Ofertas -> ver amaño box 10
+- el  IG , tiene que aparecer algo cuándo tocan?
+- cambiar el nombre de las listas, podría ser oficina y hogar , la otra embalaje
+- en la portada/ home tiene que tener fotos de toner HP ( HP 105 / HP 17/HP 83 /HP 85)
+- la parte de contacto está muy oscura
+- el mapa de google tiene el domicilio de talcahuano 770, cambiar al actual 716
+- tiene que haber algo en el home , que me indique bajar con el cursor, porque cómo que uno no baja para ver el resto de la pág.
+- tu aliado en insumos de librería y computación, figura o no?
+
 
 problema de css comentado
 /* Remove extra left and right margins, due to padding */
