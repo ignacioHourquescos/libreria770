@@ -20,7 +20,7 @@ const constantes ={
   tituloServicios4:
   "EMBALAJE; SOBRES CINTAS Y PEGAMENTO",
   descServicios4:
-  "Linea completo de articulos para embalaje para encomiendas. Sobres, cajas y pegamentos vinilicos ",
+  "Linea completo de articulos para embalaje para encomiendas. Sobres, corrugados, pluriball, cajas, Film Stretch cajas y pegamentos vinilicos ",
 
   tituloServicios5:
   "IMPRESORAS Y CARTUCHOS",
