@@ -1,7 +1,7 @@
 
 
 
-- en la parte de embalaje tiene que estar escrito corrugados-pluribal-cajas-streech
+
 - en ofertas agregar y cambiar artículos - cómo cambio yo las imágenes?y los precios?  
 - que diga en algún lugar, muchos productos más.
 - cómo compartir la página'
@@ -29,6 +29,7 @@ ESCRITURA FINA y REGALERIA
 - el mapa de google tiene el domicilio de talcahuano 770, cambiar al actual 716
 - tiene que haber algo en el home , que me indique bajar con el cursor, porque cómo que uno no baja para ver el resto de la pág.
 - tu aliado en insumos de librería y computación, figura o no?
+- en la parte de embalaje tiene que estar escrito corrugados-pluribal-cajas-streech
 
 
 problema de css comentado

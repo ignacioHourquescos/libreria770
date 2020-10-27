@@ -289,7 +289,7 @@
       margin-left:-30px;
   }
   .down {
-    -webkit-animation: downarrow 0.6s infinite alternate ease-in;
+    -webkit-animation: downarrow 0.9s infinite alternate ease-in;
     border-top:1.5em solid #ffffffec;
   }
   
