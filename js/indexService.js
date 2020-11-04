@@ -1,11 +1,11 @@
 const constantes ={
   nosotros: 
-  "Somos una librería comercial y familiar con mas de 35 años de experiencia. Venta mayorista y minorista",
+  "Somos una librería comercial y familiar con mas de 35 años de experiencia. Venta mayorista y minorista. Entrega sin cargo en GBA.",
   
   tituloServicios1:
   "ARTICULOS DE ESCRITORIO Y OFICINAS",
   descServicios1: 
-  "Amplia gama de articulos para oficinas, elementos de escritura. Trabajamos primeras y segundas marcas, originales y alternativos. insumos para impresoras fiscales",
+  "Amplia gama de artículos para oficinas, elementos de escritura. Trabajamos primeras y segundas marcas, originales y alternativos. insumos para impresoras fiscales",
   
   tituloServicios2:
   "SERVICIOS DE SELLOS Y DOCUMENTACION",
@@ -18,14 +18,14 @@ const constantes ={
   "Tramites IGJ, rubrica, copiado y venta de libros comerciales, copias autenticadas por escribano",
 
   tituloServicios4:
-  "EMBALAJE; SOBRES CINTAS Y PEGAMENTO",
+  "EMBALAJE, SOBRE, CINTAS Y PEGAMENTO",
   descServicios4:
-  "Linea completo de articulos para embalaje para encomiendas. Sobres, corrugados, pluriball, cajas, Film Stretch cajas y pegamentos vinilicos ",
+  "Linea completa de artículos para embalaje para encomiendas. Sobres, corrugados, pluriball, cajas, Film Stretch y pegamentos vinilicos ",
 
   tituloServicios5:
   "IMPRESORAS Y CARTUCHOS",
   descServicios5:
-  "Primeras marcas: Borther, epson y HP y linea ecnonómica. Impresoras y venta de Cartuchos / Toners",
+  "Primeras marcas: Borther, Epson y HP y linea ecnonómica. Impresoras y venta de Cartuchos / Toners",
 
 }
 
